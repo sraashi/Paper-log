@@ -11,8 +11,7 @@ Selectivity assessed by SPR
 14-3-3 is considered to recognize between 2 and 20 amino
 acid residues on the client.  Up to this point, to establish the
 SAR for C-RAF we used an 11-mer acetylated peptide for the
-MS assay and a 10-mer FAM-labeled peptide for the FA as-
-say. For a better comparison with crystallography, we
+MS assay and a 10-mer FAM-labeled peptide for the FA assay. For a better comparison with crystallography, we
 tested the compounds again using 15-mer C-RAF peptides,
 before comparing them to A-RAF and B-RAF peptides.
 
