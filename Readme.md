@@ -22,3 +22,30 @@ Cellular assays:
 2. co-IP in HEK293T cells: N-RAS (GTP bound form) - RAF (FLAG tagged) - 14-3-3 (HA tagged) => co IP with anti-FLAG beads
 3. Lumit antibody assay for pERK activation
 4. nanoBRET for 14-3-3sigma - A RAF/14-3-3sigma - B RAF as well as A-RAF/B-RAF/C-RAF homo and heterodimers
+
+Paper: "Targeted protein degradation via intramolecular bivalent glues"
+
+Aim: Develop molecule glues targeting BRD2/4 - E3 ligase interactions, these bind the two domains in Cis compared to trans which is the norm with Protacs
+
+General background: 
+IBG1 is a protac-like degrader targeting BRD4 using JQ1 and E8720 as the E3 binding segment. 
+Proteasome inhibitor - MG132, neddylation inhibitor - MLN   
+
+Figure 1: 
+Westerns show degradation of BRD2/4 with increasing IBG1 concentrations. 
+Proteomics with DMSO, IBG1 show specific BRD4 degradation by IBG1 compared to dBET6, graph looks at adjusted P-value vs fold-change
+nano-BRET ubiquitination and degradation assays:
+Bromotag-HiBiT-BRD4 degradation assay: BRD4 degradation with IBG1, rescued by proteasome inhibitor
+LgBiT-transfected HiBiT–BromoTag–BRD4 for ubiquitination: BRD4 ubiquitination, no ubiquitination with DMSO or IBG1 + MLN4924 (proteasome inhibitor) or IBG1 + JQ1 (JQ1 binds BRD4 preventing IBG1 from accessing BRD4?)
+BRD4 degradaiton with IBG1 is DCAF15 independent - as seen from DACF15 KO cells (sgRNA targeting DCAF15)
+
+Figure 2 - 
+FACS based protein stability reporter assay (GFP and mCherry reporters) - report on BRD4 stability
+CRISPR screens indicate proteins that are highly expressed with BRD4high in DMSO, IBG1, dBET6 treatments. With IBG1 treatment, DACF16 is expressed as well. 
+CRISPR screen for viability indicates which genes are selective with IBG1 treatment
+CRISPR screen validation - 
+KBM7 iCas9 BRD4–BFP reporter cells were transduced with AAVS1, DCAF16 or DDB1-targeting sgRNAs +/- IBG1 assessing BRD4 abundance:
+With just DMSO, BRD4 abundance is similarly high across different sgRNA treated cells
+With IBG1, BRD4 abundance is high only in DACF16 sgRNA cell, indicating DACF16 dependance. 
+With dBET6, BRD4 abundance is unaffected in DCAF15 sgRNA cell. 
+
