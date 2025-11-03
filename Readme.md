@@ -48,4 +48,9 @@ KBM7 iCas9 BRD4–BFP reporter cells were transduced with AAVS1, DCAF16 or DDB1-
 With just DMSO, BRD4 abundance is similarly high across different sgRNA treated cells
 With IBG1, BRD4 abundance is high only in DACF16 sgRNA cell, indicating DACF16 dependance. 
 With dBET6, BRD4 abundance is unaffected in DCAF15 sgRNA cell. 
+When KBM7 iCas9 BRD4–BFP reporter cells were transduced with AAVS1 or DCAF16-targeting sgRNAs +/- sgRNA-resistant DCAF16 cDNA, ectopic expression of DCAF16 rescues BRD4 expression and degrades it in the presence of IBG1. 
+Apoptosis assay with cleaved PARP1 shows increasing cleavage with WT+IBg1, WT+ dBET6, DCAF16KO + dBET6 but not with DACF16 KO+ IBG1
+Viability assay shows increased viability with DACF16 KO sgRNA cells with IBG1
+FP assay shows IBG1 binding to DACF15 and not DCAF16
+
 
