@@ -51,7 +51,10 @@ BRD4 degradaiton with IBG1 is DCAF15 independent - as seen from DACF15 KO cells 
 
 Figure 2 - 
 FACS based protein stability reporter assay (GFP and mCherry reporters) - report on BRD4 stability
-CRISPR screens indicate proteins that are highly expressed with BRD4high in DMSO, IBG1, dBET6 treatments. With IBG1 treatment, DACF16 is expressed as well. 
+CRISPR screens indicate proteins that are highly expressed with BRD4high in DMSO, IBG1, dBET6 treatments. With IBG1 treatment, DACF16 is expressed as well.CRISPR screen identifies which KOs result in high BRD4 expression with IBG1 treatment. 
+
+Tranduce cells with sgRNA library -> induce Cas9 with Doxycycline -> Treat with a degrader -> Sort with FACS to BRD4high (degradation resistant), BRD4 low (Degradation sensitive) -> Sequence sgRNA from each population -> Compared BRD4^high to low to find enriched sgRNA
+
 CRISPR screen for viability indicates which genes are selective with IBG1 treatment
 
 CRISPR screen validation - 
@@ -71,7 +74,7 @@ FP assay shows IBG1 binding to DACF15 and not DCAF16
 
 Figure 3: 
 
-In vitro measurement of ternary interaction: DCAF16– DDB1(ΔBPB)–DDA1 binding to pre-incubated BRD4Tandem–IBG1 complex by ITC
+1. In vitro measurement of ternary interaction: DCAF16– DDB1(ΔBPB)–DDA1 binding to pre-incubated BRD4Tandem–IBG1 complex by ITC
 
 ITC with DCAF16 + BRD4^Tandem
 Kd = 4 µM (weak binding)
@@ -85,3 +88,21 @@ Kd = 0.567 µM (7× tighter!)
 TΔS = 73.9 kJ/mol (huge entropy gain!)
 ΔG = −35.7 kJ/mol (more favorable overall)
 n = 0.75 (n = 0.7–1.3 is typical, not all of the protein may be active)
+
+2. TR-FRET with Europium-labelled anti-His bound to BRD4Tandem was incubated and equimolar Cy5-labelled DCAF16–DDB1(ΔBPB)–DDA1 and increasing concentrations of IBG1 or JQ1 => with IBG1 more higher potency observed. As well, DACF16-BRD4 tandem interaction observed in the absence of IBG1 but with higher EC50. 
+3. SEC - co-elution of DACF16 and BRD4^tandem, further stabilized by IBG1. Do not see the co-elution with the BD1/BD2. 
+4. Alphalisa displacement assay -
+5. BET stability reporter assay with different Bromodomain mixing and matching - indicates BD2 maintains selectivity of BRD4 over BRD3, and BD1 - BD2 need to be in tandem to
+
+Figure 4:
+1. SEC analysis of BRD4^tandem + DMSO/JQ1 shows lower RT compared to + IBG1 indicating compaction and lower hydrodynamic radius with IBG1 (Higher MW elutes first)
+2. Also make IBG3, which is more potent than IBG1 as tested in BRD4 degradation, BRD4-DACF16 TR-FRET as well as ITC (showing endothermic profile as with IBG1). Hypothesis - bifunctional compounds with two high-affinity bromodomain ligands should stabilize the degradation-competent bromodomain conformations, enabling generation of more DACF16 degraders
+
+Figure 5: 
+1. IBG4 shows BRD4 degradation in KBM7 cells, SEC shows compaction as did IBG1
+2. CRISPR–Cas9 BRD4 stability screen- KBM7 iCas9 BRD4 reporter cells expressing a CRL-focused sgRNA library were treated with IBG4 and results in DCAF11 enrichment at BRD4high signal => DCAF11 mediates resistance to IBG4
+3. TR-FRET: DCAF11 showed measurable intrinsic affinity for BRD4 in TR-FRET (Fig. 5f) and this interaction was significantly
+enhanced in the presence of IBG4 (5g)
+4. Summary of monovalent glue vs bivalent glues (PROTACS) vs intramolecule glue (IBG1/IBG4 as presented here) provided
+
+"They discovered that a compound designed as a DCAF15 PROTAC actually works as a DCAF16 intramolecular bivalent glue through a completely different mechanism!"
