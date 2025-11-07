@@ -105,4 +105,4 @@ Figure 5:
 enhanced in the presence of IBG4 (5g)
 4. Summary of monovalent glue vs bivalent glues (PROTACS) vs intramolecule glue (IBG1/IBG4 as presented here) provided
 
-"They discovered that a compound designed as a DCAF15 PROTAC actually works as a DCAF16 intramolecular bivalent glue through a completely different mechanism!"
+They discovered that a compound designed as a DCAF15 PROTAC actually works as a DCAF16 intramolecular bivalent glue through a completely different mechanism!
