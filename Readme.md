@@ -108,8 +108,43 @@ enhanced in the presence of IBG4 (5g)
 They discovered that a compound designed as a DCAF15 PROTAC actually works as a DCAF16 intramolecular bivalent glue through a completely different mechanism!
 
 
-Paper:Template-assisted covalent modificationunderlies activity of covalent molecular glues
+Paper: Molecular basis of proton sensing by G protein-coupled receptors
+Matthew K. Howard et al, 2025
 
-Yen-Der Li et al, 2024
+This paper illuminates the proton sensing mechanism of GPCRS - GPR4, GPR65, GPR68. They generate cryo-EM structures of GPRs, perform deep mutational scan of every residue evaluating the effect of each mutation on expression as well as signaling,constant pH MD simulations that give insights into the mechanism. Not a single residue is responsible for the proton recognition - rather, a network of titrable residues determines framework of proton sensing and recognition by these GPCRs. 
+
+Figures 1/S1 - Determine pH50 (pH at which 50% activation of GPCR is observed) for the three GPRs - GPR4 has highest pH50 (8) and GPR68 lowest (6.8) determined by Glosensor Luminescence assay in HEK293T cells (monitors luciferase signal upon actiation of GPCR). They then swap one-pH sensing receptor for another (GPR68 pH sensing into GPR4) to evalluate drift of pH50 - only a construct with the entire extracellular signal region of GPR68 into GPR4 results in complete shift of pH50. So not a single site but a bunch of proton sensing sites is reponsible for receptor activation. (They also look at anti-FLAG-APC staining to evaluate receptor expression)
+
+Figure 2/3/S2-S3 - Determine cryoEM structures of GPR4, 65, 68. GPR4, 65 are activated by Galphas so they have mini-Galphas to stabilize their receptors and for GPR68, they use both Galphas and Galpha/Gq. They compare the structures with Beta2-AR structure (Class A GPCR) 
+Conserved GPCR motif:  P5.50I3.40F6.44, N7.49P7.50xxY7.53 (TM7), C6.47W6.48xP6.50” motif in TM6
+These structures show many titratable residues in the TM regions of all proteins (His, Lys, Arg/Asp, Glu)
+
+
+Figure 4 - Deep Mutational Scanning of GPR68 for high-throughput Seq-function insight. 
+
+Prior work used a cAMP-DMS transcriptional readout for receptor activation - but suffered from low signal window and high basal activity. 
+They devised a new readout with a FACS-seq approach. Activation of GalphaS -> cAMP production -> eGFP activation. To correct for GPCR basal activity resulting in low signal to noise, they employed two methods: 1. titrated receptor expression precisely 2. Fuse eGFP to dihydrofolate reductase degron stabilized by a small-molecule TMP (so with TMP, eGFP is produced upon stimulation).
+
+4b/c/d - Control FACS experiments with B2AR - show eGFP expression with forkskolin (direct cAMP production) and none with DMSO/other inhibitors, GPR68 shows eGFP peak at pH 5.5 (active) and not at pH 6.5 (inactive, left shifted peak). %GFP+ cells is 0 at pH 6.5 and and 100% at pH 5.5 consistent with eGFP signal peaks. 
+
+4E/F - They generated a gpr68 mutant library containing all possible single missense mutations, a single synonymous mutation, as well as 1–3 amino acid insertions and deletions (indels) at each position => 9464 pooled variants in stable HEK293T cells with each one containing a variant - performing screen at pH 5.5 (active) and pH 6.5 (inactive). 
+
+At pH 6.5, mutations have little effect (consistent with inactivating condition)
+Ar pH 5.5, mutations in TM regions are less tolerated, Cys mutations that are involved in S=S bonds are less tolerated, substitutions in conserved GPCR motif positions are mostly deleterious. 
+
+Multi-phenotypic DMS: 
+
+Figure 5 - To deconvolute expression and signaling, they are performed FACS with anit-FLAG antibody. 
+Syn mutations have little effect on signaling, missense mut have distributed effects on signaling and expression. 
+They devise an expression-adjusted functional score for each variant for pH dependent activation. Since syn mutation should have least effect on expression or function, they define the regression line of how expression changes signaling. GOF with missense mutations that have higher signaling at same expression and LOF with lower signaling at same expression are mapped as euclidean distance to regression line (Linear distance). 
+
+They then separated postive, negative and average mutational scores per position and identity the usual GPCR motifs and residues contacting Galpha as those in the highest 5% GOF or lowest 5% LOF. Some also map to titrable extracellular residues. 
+
+Figure 6: 
+
+MD simulations of GPR68:
+
+
+
 
 
