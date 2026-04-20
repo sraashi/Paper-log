@@ -140,9 +140,18 @@ They devise an expression-adjusted functional score for each variant for pH depe
 
 They then separated postive, negative and average mutational scores per position and identity the usual GPCR motifs and residues contacting Galpha as those in the highest 5% GOF or lowest 5% LOF. Some also map to titrable extracellular residues. 
 
-Figure 6: 
+Identification of small-molecule protein–protein interaction inhibitors for NKG2D:
 
-MD simulations of GPR68:
+Objective: Develop a PPI inhibitor (small-molecule) of NKG2D
+
+Figure 1: Identify compounds that inhibit NKG2D - MICA interaction via cellular and biochemical TR-FRET (cellular TR-FRET with transfected SNAP-tagged and TB labeled NKG2D with Alexa-labeled MICA), SPR interactions of Biotinylated NKG2D and MICA with small-molecules 
+Cell-killing assays with co-culture of NKG2D expressing cells and MICA expressing Ba/F3 cells - compounds should inhibit cell-killing, but those with IC50 < 5 uM did not result in TR-FRET or SPR binding result
+DEL screen - Screen for compounds binding to NKG2D and counterscreen with NKG2D-MICA binders
+Crystal structure shows a wedge in the homodimer interface where the SM binds
+Both compounds identified distort the quarternary structure of NKG2D ECD and reduce the ability to bind to endogenous ligands
+
+
+
 
 
 
